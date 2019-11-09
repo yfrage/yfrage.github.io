@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+}
+.container {
+  /*display: inline-block;*/
+  width: 1000px;
+  margin: auto;
+  margin-top: 0;
+  background-color: #FAFAFA;
+  text-align: center;
+}
+
+.y-form {
+  display: inline-block;
+  text-align: center;
+}
+
+.y-form-heading {
+  font-family: 'Arvo';
+  font-size: 20px;
+  color: #444444;
+  border-bottom: 2px solid #888888;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.y-form > table > tbody > tr > td:nth-child(1) {
+  text-align: right !important;
+  font-family: 'Open Sans';
+  padding-right: 5px;
+  color: #444444;
+  font-size: 14px;
+  /*font-weight: 600;*/
+}
+
+.y-form > table > tbody > tr > td {
+  padding-top: 10px;
+}
+
+.y-form input[type=text],
+.y-form textarea {
+  border: 1px solid #CCCCCC;
+  transition: 0.2s;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  padding: 4px 4px 4px 4px;
+}
+.y-form input[type=text]:hover,
+.y-form input[type=text]:focus,
+.y-form textarea:hover,
+.y-form textarea:focus {
+  box-shadow: 0px 0px 4px #999999;
+}
+
+.y-form button {
+  border: none;
+  background-color: #0047AB;
+  color: #EEEEEE;
+  /*padding: 2px 8px 2px 8px;*/
+  padding: 4px 8px 4px 8px;
+  transition: 0.2s;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 600;
+}
+.y-form button:hover,
+.y-form button:focus {
+  box-shadow: 0px 0px 6px #555555;
+}
